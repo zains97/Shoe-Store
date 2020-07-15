@@ -34,7 +34,7 @@ const ProductHome = () => {
             <li key={productID}>
               <Link to={productID}>
                 <h4>{name}</h4>
-                <img src={img} alt={`image for ${name}`} />
+                <img src={img} alt={name} />
               </Link>
             </li>
           );
