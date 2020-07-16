@@ -1,11 +1,13 @@
-import React from 'react'
+import React from "react";
+import ImageSlider from "./ImageSlider";
 
 const Home = () => {
-    return (
-        <div>
-            Home
-        </div>
-    )
-}
+  return (
+    <div>
+      <ImageSlider />
+      Home
+    </div>
+  );
+};
 
-export default Home
+export default Home;
