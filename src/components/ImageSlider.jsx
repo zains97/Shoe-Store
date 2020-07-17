@@ -15,25 +15,25 @@ const ImageSlider = () => {
       <Fade>
         <div className="each-fade">
           <div className="image-container">
-            <img src={fadeImages[0]} />
+            <img src={fadeImages[0]} alt="Jordans" />
           </div>
           <h2>Nike Jordan 1 Retros</h2>
         </div>
         <div className="each-fade">
           <div className="image-container">
-            <img src={fadeImages[1]} />
+            <img src={fadeImages[1]} alt="Yeezys" />
           </div>
           <h2>Adidas Yeezy Boost 350</h2>
         </div>
         <div className="each-fade">
           <div className="image-container">
-            <img src={fadeImages[2]} />
+            <img src={fadeImages[2]} alt="Mercurials" />
           </div>
           <h2>Nike Mercurial Football Boots</h2>
         </div>
         <div className="each-fade">
           <div className="image-container">
-            <img src={fadeImages[3]} />
+            <img src={fadeImages[3]} alt="F50" />
           </div>
           <h2>Adidas F50 Football Boots</h2>
         </div>
